@@ -1,0 +1,11 @@
+.homepageImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  top: calc(50% - 50px);
+  left: 25%;
+  position: absolute;
+  height: 100px;
+}

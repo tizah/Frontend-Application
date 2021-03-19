@@ -1,0 +1,39 @@
+.sidenavbar {
+  position: sticky;
+  padding: 25px 0;
+  flex: 18%;
+  /* this is a temporat color that will be removed */
+}
+
+.sidenavbarToggle {
+  transform: none;
+  position: sticky;
+  padding: 25px 0;
+  flex: 18%;
+}
+@media only screen and (max-width: 600px) {
+  .sidenavbar {
+    transform: translateX(-100%);
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    flex: none;
+    padding: 0;
+    background: none;
+  }
+
+  .sidenavbarToggle {
+    transform: translateX(0);
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    z-index: 1;
+    background-color: #272e71;
+    color: #fff;
+    width: 170px;
+    position: fixed;
+    height: 100%;
+  }
+}

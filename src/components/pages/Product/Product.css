@@ -1,0 +1,22 @@
+.product__container {
+  display: flex;
+}
+
+.product {
+  flex: 70%;
+}
+
+.user__map {
+  flex: 30%;
+  margin: 0 0 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .product__container {
+    flex-direction: column;
+  }
+
+  .user__map {
+    display: none;
+  }
+}

@@ -1,0 +1,36 @@
+.productInfo-container {
+  background-color: #fff;
+  margin: 10px 0;
+  box-shadow: 1px 1px 6px 0 rgb(0 0 0 / 10%);
+}
+
+.productInfo-content {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 10px;
+}
+
+.productInfo-title .productIno-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #eee;
+  width: 50%;
+}
+
+.productInfo-title {
+  width: 50%;
+}
+
+.productInfo-type {
+  width: 50%;
+}
+
+.productInfo-title > p {
+  font-size: small;
+}
+.productIno-type > p {
+  font-size: small;
+}
