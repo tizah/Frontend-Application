@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Select from "react-select";
 import makeAnimated from "react-select/animated";
 import { useSelector, useDispatch } from "react-redux";
+import parse from "html-react-parser";
 import { RootState } from "../../../store";
 // import Button from "../../UI/Button";
 import { fetchTrlList } from "../../../store/actions/ProductAction";
@@ -54,7 +55,7 @@ const ProductDescriptionAttribute = ({
     <div className="container">
       <Tabs mainColor={siteConfig?.mainColor}>
         <TabPanel name="Description" key="1">
-          {productDescription}
+          {parse(productDescription as string)}
         </TabPanel>
         <TabPanel name="Attributes" key="2">
           <h4>Categories</h4>
