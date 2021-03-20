@@ -8,7 +8,6 @@ import {
     FETCH_PRODUCT_SUCCESS,
     FETCH_PRODUCT_ERROR,
     FETCH_TRL_LIST,
-    TrlList,
     FETCH_TRL_ERROR,
     FETCH_SITE_CONFIG,
     FETCH_SITE_CONFIG_ERROR,
@@ -22,7 +21,7 @@ export const fetchProduct = (): ThunkAction<void, RootState, null, ProductAction
                 type: IS_LOADING,
                 payload: true
             })
-            const product = await axios.get("https://api-test.innoloft.com/product/6781/").then(res => {
+            const product = await axios.get(`https://api-test.innoloft.com/product/${process.env.REACT_APP_PRODUCT_ID}/`).then(res => {
                 return res.data;
             });
                  dispatch({

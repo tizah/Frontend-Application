@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import { useHistory, useLocation } from "react-router-dom";
 
 import "./Header.css";
 
@@ -10,7 +9,6 @@ interface HeaderProps {
 }
 
 const Header = ({ onClick, logo, headerBgColor }: HeaderProps) => {
-  const history = useHistory();
   return (
     <div
       className="header"
