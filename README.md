@@ -11,7 +11,7 @@ The page will reload if you make edits.\
 
 ## NOTE :
 
-### update the `.env` file with the required id's
+### update the `.env` file with the required id's. On the event that REACT_APP_PRODUCT_ID is not found, 404 page will be returned
 
 REACT_APP_ID=
 REACT_APP_PRODUCT_ID=

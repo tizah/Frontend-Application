@@ -51,4 +51,17 @@
   .mobile-menu > .fa {
     font-size: 30px;
   }
+
+  .header__image > img {
+    /* background-color: white;
+  width: 10rem;
+  padding: 10px; */
+    background-color: white;
+    /* width: 10rem; */
+    padding: 10px;
+    /* object-fit: contain; */
+    width: 10rem;
+    height: 50px;
+    object-fit: contain;
+  }
 }
