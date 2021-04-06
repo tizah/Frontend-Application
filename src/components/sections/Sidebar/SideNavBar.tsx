@@ -18,13 +18,6 @@ const SideNavBar = ({ isOpen, onClick }: SideNavBarProps) => {
     color: "",
   };
 
-  const active = {
-    backgroundColor: "#d7d7d7",
-  };
-
-  // const isLargeScreen = useMediaQuery({
-  //   query: "(max-width: 600px) ",
-  // });
 
   const navigate = (path: string) => {
     if (path === "/") {

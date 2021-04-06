@@ -33,7 +33,7 @@ const App: FC = () => {
     dispatch(isLoadingApp(false));
     console.log({ isLoading }, " is loading 2");
     return () => {};
-  }, [fetchSiteConfig, dispatch, isLoading]);
+  }, [dispatch, isLoading]);
   // To start listening for location changes...
 
   const handleSideBarToggle = () => {
