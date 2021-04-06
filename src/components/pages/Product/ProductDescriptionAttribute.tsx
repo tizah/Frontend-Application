@@ -55,7 +55,7 @@ const ProductDescriptionAttribute = ({
     <div className="container">
       <Tabs mainColor={siteConfig?.mainColor}>
         <TabPanel name="Description" key="1">
-          {parse(productDescription as string)}
+          {productDescription && parse(productDescription as string)}
         </TabPanel>
         <TabPanel name="Attributes" key="2">
           <h4>Categories</h4>
