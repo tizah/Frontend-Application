@@ -1,4 +1,4 @@
-import React, { FC, useState, useEffect } from "react";
+import React, { FC, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
 import ProductImage from "./ProductImage";
@@ -13,7 +13,6 @@ import { RootState } from "../../../store";
 import {
   fetchProduct,
   isLoadingProduct,
-  fetchProductSuccess,
   fetchProductError,
 } from "../../../store/actions/ProductAction";
 
@@ -22,8 +21,6 @@ import "./Product.css";
 const Product: FC = () => {
   const {
     product,
-    status,
-    error,
     errorState,
     successState,
     siteConfig,

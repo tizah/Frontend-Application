@@ -1,9 +1,9 @@
-import React, { FC } from "react";
+import React from "react";
 import { HTMLAttributes } from "react";
 
 import "./SidebarRow.css";
 
-interface SidebarRow {
+interface SidebarRowProps {
   iconStyle: HTMLAttributes<HTMLElement>;
   faicon: string;
   title: string;
@@ -17,7 +17,7 @@ const SidebarRow = ({
   title,
   onClick,
   isHomePage,
-}: SidebarRow) => {
+}: SidebarRowProps) => {
   return (
     <div
       className="sidebarrow"

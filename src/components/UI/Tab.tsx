@@ -1,5 +1,4 @@
 import React, { ReactNode, useEffect, useState } from "react";
-import TabPane from "./Tabpanel";
 
 interface TabProps {
   children: ReactNode;

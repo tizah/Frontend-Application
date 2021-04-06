@@ -20,6 +20,7 @@ const Map = ({ latitude, longitude }: MapProps) => {
         }
         width="100%"
         height="250px"
+        title="map"
         style={{ border: "0" }}
         loading="lazy"
       ></iframe>
