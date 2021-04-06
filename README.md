@@ -6,6 +6,12 @@
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![image](https://user-images.githubusercontent.com/16264300/111861954-52898580-8952-11eb-876c-087b5dae4f8d.png)
+
+![image](https://user-images.githubusercontent.com/16264300/111862226-44d4ff80-8954-11eb-8054-9beb9ba648db.png)
+
+
+
 
 ## NOTE :
 
